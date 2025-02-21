@@ -17,7 +17,7 @@
     <tr>
       <td>1</td>
       <td>Imports one of the provided .xlsx files</td>
-      <td>5</td>
+      <td>15</td>
     </tr>
     <tr>
       <td>2</td>
@@ -69,7 +69,7 @@
 ## TA Guide:
 
 1. #### Imports one of the provided .xlsx files
-    - 5 points
+    - 15 points
 
 2. #### Creates sheets for every class
     - 14 points
