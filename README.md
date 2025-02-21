@@ -1,16 +1,16 @@
 #### Project 2
 # Formatting Grades in Excel
 - This is a group project. Through GitHub Classroom you should have created a shared GitHub repository with your group members, so as long as you upload your finished code to that group repository, each member in your team will get credit. You will also need to fill out a peer review survey on Learning Suite to recieve credit.
-- I do not provide automated tests for projects. You will need to determine yourself whether the code meets the requirements provided in the rubric. After you turn in your code, a combination of autograding and manual grading will be done (meaning partial credit may be given for certain requirements). The TAs will update the `Rubric.md` file with your grade and any comments that they have.
+- I do not provide automated tests for projects. You will need to determine yourself whether the code meets the requirements provided in the rubric. After you turn in your code, your code will be manually graded (meaning partial credit may be given for certain requirements). The TAs will update the `Rubric.md` file with your grade and any comments that they have.
 
 - Assume a high school teacher approached your group complaining about the Excel file their grading system produces each quarter. It spits out all the classes they teach with all their students in a single worksheet, with student information stored in a single column. The teacher wants your group to make a program that will automatically format and summarize the important information about each of the classes they teach.
 
-- Place your code in the `p2_formatting_grades_in_excel.py` file. Optionally, you can create any new .py files you want to place functions or classes in. If you do so, just make sure you import those files into `p2_formatting_grades_in_excel.py`
+- Place your code in the `p02_formatting_grades_in_excel.py` file. Optionally, you can create any new .py files you want to place functions or classes in. If you do so, just make sure you import those files into `p02_formatting_grades_in_excel.py`
 
 ## Libraries Required:
 - openpyxl
     - `import openpyxl`
-    - for fonts: `from openpyxl.stiyles import Font`
+    - for fonts: `from openpyxl.styles import Font`
 
 ## External Files Required:
 Your GitHub repository should contain 2 excel files: `poorly_organized_data_1.xlsx` and `poorly_organized_data_2.xlsx`. Each file contains the following columns:
@@ -81,9 +81,9 @@ However, here are some hints that might help you implement each requirement. Wha
 6.	Save the results
 - worksheet_object.save()
 
+## Grading Rubric:
+See Rubric.md. Remember to right click and select "Open Preview" to view the file in a nice format. The TAs will update this file with your grade when they are done grading your submission.
+
 
 ## Example Output
 See the `example_output_1.xlsx` and `example_output_1.xlsx` files
-
-## Rubric
-see the `Rubric.md` file.
