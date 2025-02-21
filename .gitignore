@@ -8,6 +8,7 @@ test_cases_drafts.json
 markdown_generated.md
 tests/
 pytest.ini
+example_output_x.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
